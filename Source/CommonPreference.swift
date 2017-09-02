@@ -8,5 +8,5 @@ import Foundation
 /// Define the UserDefaults name
 public struct PreferenceName {
     /// Return 'true' if the app have been launching, 'false' if not.
-    static let isLaunched = UserDefaultDefine<Bool>(rawValue: "PreferenceNameIsLaunched")
+    public static let isLaunched = UserDefaultDefine<Bool>(rawValue: "PreferenceNameIsLaunched")
 }
