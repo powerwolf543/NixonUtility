@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = 'NixonUtility'
-  s.version   = '0.01'
+  s.version   = '0.02'
   s.license = 'MIT'
   s.ios.deployment_target  = '10.0'
   s.summary   = 'Nixon commonly used tools.'
