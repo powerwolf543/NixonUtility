@@ -1,5 +1,5 @@
 //
-//  Created by nixon.shih on 2017/8/28.
+//  Created by NixonShih on 2017/8/28.
 //  Copyright © 2017 NixonShih. All rights reserved.
 //
 
@@ -36,11 +36,20 @@ public enum AppNotifier: String, Notifiable {
 public enum DeviceNotifier: String, Notifiable {
     
     case DeviceOrientationDidChange
+    case DeviceBatteryStateDidChange
+    case DeviceBatteryLevelDidChange
+    case DeviceProximityStateDidChange
     
     public var name: Notification.Name {
         switch self {
         case .DeviceOrientationDidChange:
             return Notification.Name.UIDeviceOrientationDidChange
+        case .DeviceBatteryStateDidChange:
+            return Notification.Name.UIDeviceBatteryStateDidChange
+        case .DeviceBatteryLevelDidChange:
+            return Notification.Name.UIDeviceBatteryLevelDidChange
+        case .DeviceProximityStateDidChange:
+            return Notification.Name.UIDeviceProximityStateDidChange
         }
     }
 }

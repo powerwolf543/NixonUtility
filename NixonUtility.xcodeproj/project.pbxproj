@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2543836D1F4B4BB400987989 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2543836B1F4B4BB400987989 /* Info.plist */; };
 		25E91A0F1F4B4D1C00564B66 /* NixonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2543836C1F4B4BB400987989 /* NixonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED32E8E91F67D7FA00994FE6 /* UIAlertController+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32E8E81F67D7FA00994FE6 /* UIAlertController+Convenient.swift */; };
 		EDE8EF361F540ECD002C761B /* AppNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF321F540ECD002C761B /* AppNotifier.swift */; };
 		EDE8EF371F540ECD002C761B /* CommonPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF331F540ECD002C761B /* CommonPreference.swift */; };
 		EDE8EF381F540ECD002C761B /* NotificationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF341F540ECD002C761B /* NotificationUtility.swift */; };
@@ -19,6 +20,7 @@
 		2543836B1F4B4BB400987989 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2543836C1F4B4BB400987989 /* NixonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NixonUtility.h; sourceTree = "<group>"; };
 		25A1AB041F4B485000FD77A1 /* NixonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NixonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED32E8E81F67D7FA00994FE6 /* UIAlertController+Convenient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Convenient.swift"; sourceTree = "<group>"; };
 		EDE8EF321F540ECD002C761B /* AppNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNotifier.swift; sourceTree = "<group>"; };
 		EDE8EF331F540ECD002C761B /* CommonPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonPreference.swift; sourceTree = "<group>"; };
 		EDE8EF341F540ECD002C761B /* NotificationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationUtility.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 				EDE8EF331F540ECD002C761B /* CommonPreference.swift */,
 				EDE8EF341F540ECD002C761B /* NotificationUtility.swift */,
 				EDE8EF351F540ECD002C761B /* UserDefaultUtility.swift */,
+				ED32E8E81F67D7FA00994FE6 /* UIAlertController+Convenient.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				EDE8EF381F540ECD002C761B /* NotificationUtility.swift in Sources */,
 				EDE8EF371F540ECD002C761B /* CommonPreference.swift in Sources */,
 				EDE8EF391F540ECD002C761B /* UserDefaultUtility.swift in Sources */,
+				ED32E8E91F67D7FA00994FE6 /* UIAlertController+Convenient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
