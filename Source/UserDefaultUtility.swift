@@ -1,6 +1,4 @@
 //
-//  UserDefaultUtility.swift
-//
 //  Created by NixonShih on 2017/7/23.
 //  Copyright © 2017 NixonShih. All rights reserved.
 //
