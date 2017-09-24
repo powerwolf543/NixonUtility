@@ -45,8 +45,8 @@ import NixonUtility
 ## Requirements
 
 - iOS 10+
-- Xcode 8.3+
-- Swift 3.1+
+- Xcode 9+
+- Swift 4+
 
 ## Version
 
