@@ -50,8 +50,12 @@ import NixonUtility
 
 ## Version
 
-- v 0.0.4
+- v 1.0.0
+
+## Author
+
+Nixon Shih, powerwolf543@gmail.com
 
 ## License
 
-NixonUtility is released under the MIT license.
+NixonUtility is available under the MIT license. See the LICENSE file for more info.
