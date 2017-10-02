@@ -50,7 +50,7 @@ import NixonUtility
 
 ## Version
 
-- v 0.0.4
+- v 1.0.0
 
 ## Author
 
