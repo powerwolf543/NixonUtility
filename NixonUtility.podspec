@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name = 'NixonUtility'
-  s.version = '1.1.0'
+  s.version = '1.1.2'
   s.license = 'MIT'
   s.summary = 'Nixon commonly used tools.'
   s.author = { 'NixonShih' => 'powerwolf543@gmail.com' }
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   end
 
   # UIKit Extensions
-  s.subspec 'FoundationExtension' do |sp|
+  s.subspec 'UIKitExtension' do |sp|
     sp.source_files  = 'Source/UIKitExtension/*.swift'
   end
 
