@@ -3,6 +3,8 @@
 //  Copyright © 2017 NixonShih. All rights reserved.
 //
 
+#if os(iOS)
+
 import UIKit
 import AudioToolbox
 
@@ -92,3 +94,5 @@ public extension UIAlertController {
     }
     
 }
+
+#endif

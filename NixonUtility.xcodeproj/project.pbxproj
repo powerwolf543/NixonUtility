@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25E91A0F1F4B4D1C00564B66 /* NixonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2543836C1F4B4BB400987989 /* NixonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED32E8E91F67D7FA00994FE6 /* UIAlertController+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32E8E81F67D7FA00994FE6 /* UIAlertController+Convenient.swift */; };
-		EDE8EF361F540ECD002C761B /* AppNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF321F540ECD002C761B /* AppNotifier.swift */; };
-		EDE8EF371F540ECD002C761B /* CommonPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF331F540ECD002C761B /* CommonPreference.swift */; };
-		EDE8EF381F540ECD002C761B /* NotificationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF341F540ECD002C761B /* NotificationUtility.swift */; };
-		EDE8EF391F540ECD002C761B /* UserDefaultUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8EF351F540ECD002C761B /* UserDefaultUtility.swift */; };
+		ED53273B1FA7017E00879616 /* NixonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2543836C1F4B4BB400987989 /* NixonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED53273C1FA7061900879616 /* CommonPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327261FA6FA6B00879616 /* CommonPreference.swift */; };
+		ED53273D1FA7061900879616 /* NotificationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53272A1FA6FACA00879616 /* NotificationUtility.swift */; };
+		ED53273E1FA7061900879616 /* UserDefaultUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327271FA6FA6C00879616 /* UserDefaultUtility.swift */; };
+		ED53274C1FA7066900879616 /* CommonPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327261FA6FA6B00879616 /* CommonPreference.swift */; };
+		ED53274D1FA7066900879616 /* NotificationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53272A1FA6FACA00879616 /* NotificationUtility.swift */; };
+		ED53274E1FA7066900879616 /* UserDefaultUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327271FA6FA6C00879616 /* UserDefaultUtility.swift */; };
+		ED53274F1FA7066E00879616 /* AppNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327241FA6FA4800879616 /* AppNotifier.swift */; };
+		ED5327501FA7067000879616 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53272C1FA6FB0D00879616 /* UIAlertControllerExtension.swift */; };
+		ED5327511FA7068500879616 /* NixonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2543836C1F4B4BB400987989 /* NixonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2543836B1F4B4BB400987989 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2543836C1F4B4BB400987989 /* NixonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NixonUtility.h; sourceTree = "<group>"; };
-		25A1AB041F4B485000FD77A1 /* NixonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NixonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED32E8E81F67D7FA00994FE6 /* UIAlertController+Convenient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Convenient.swift"; sourceTree = "<group>"; };
-		EDE8EF321F540ECD002C761B /* AppNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNotifier.swift; sourceTree = "<group>"; };
-		EDE8EF331F540ECD002C761B /* CommonPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonPreference.swift; sourceTree = "<group>"; };
-		EDE8EF341F540ECD002C761B /* NotificationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationUtility.swift; sourceTree = "<group>"; };
-		EDE8EF351F540ECD002C761B /* UserDefaultUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultUtility.swift; sourceTree = "<group>"; };
+		ED5327241FA6FA4800879616 /* AppNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNotifier.swift; sourceTree = "<group>"; };
+		ED5327261FA6FA6B00879616 /* CommonPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonPreference.swift; sourceTree = "<group>"; };
+		ED5327271FA6FA6C00879616 /* UserDefaultUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultUtility.swift; sourceTree = "<group>"; };
+		ED53272A1FA6FACA00879616 /* NotificationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationUtility.swift; sourceTree = "<group>"; };
+		ED53272C1FA6FB0D00879616 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		ED5327331FA6FED700879616 /* NixonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NixonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5327441FA7066000879616 /* NixonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NixonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25A1AB001F4B485000FD77A1 /* Frameworks */ = {
+		ED53272F1FA6FED700879616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5327401FA7066000879616 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,11 +54,10 @@
 			children = (
 				2543836B1F4B4BB400987989 /* Info.plist */,
 				2543836C1F4B4BB400987989 /* NixonUtility.h */,
-				EDE8EF321F540ECD002C761B /* AppNotifier.swift */,
-				EDE8EF331F540ECD002C761B /* CommonPreference.swift */,
-				EDE8EF341F540ECD002C761B /* NotificationUtility.swift */,
-				EDE8EF351F540ECD002C761B /* UserDefaultUtility.swift */,
-				ED32E8E81F67D7FA00994FE6 /* UIAlertController+Convenient.swift */,
+				ED5327211FA6FA0500879616 /* Foundation */,
+				ED5327201FA6FA0500879616 /* FoundationExtension */,
+				ED5327221FA6FA0500879616 /* UIKit */,
+				ED5327231FA6FA0500879616 /* UIKitExtension */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -62,41 +73,101 @@
 		25A1AB051F4B485000FD77A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25A1AB041F4B485000FD77A1 /* NixonUtility.framework */,
+				ED5327331FA6FED700879616 /* NixonUtility.framework */,
+				ED5327441FA7066000879616 /* NixonUtility.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5327201FA6FA0500879616 /* FoundationExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoundationExtension;
+			sourceTree = "<group>";
+		};
+		ED5327211FA6FA0500879616 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				ED5327261FA6FA6B00879616 /* CommonPreference.swift */,
+				ED53272A1FA6FACA00879616 /* NotificationUtility.swift */,
+				ED5327271FA6FA6C00879616 /* UserDefaultUtility.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		ED5327221FA6FA0500879616 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED5327241FA6FA4800879616 /* AppNotifier.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		ED5327231FA6FA0500879616 /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				ED53272C1FA6FB0D00879616 /* UIAlertControllerExtension.swift */,
+			);
+			path = UIKitExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		25A1AB011F4B485000FD77A1 /* Headers */ = {
+		ED5327301FA6FED700879616 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E91A0F1F4B4D1C00564B66 /* NixonUtility.h in Headers */,
+				ED53273B1FA7017E00879616 /* NixonUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5327411FA7066000879616 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5327511FA7068500879616 /* NixonUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25A1AB031F4B485000FD77A1 /* NixonUtility */ = {
+		ED5327321FA6FED700879616 /* NixonUtility-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25A1AB181F4B485000FD77A1 /* Build configuration list for PBXNativeTarget "NixonUtility" */;
+			buildConfigurationList = ED53273A1FA6FED700879616 /* Build configuration list for PBXNativeTarget "NixonUtility-macOS" */;
 			buildPhases = (
-				25A1AAFF1F4B485000FD77A1 /* Sources */,
-				25A1AB001F4B485000FD77A1 /* Frameworks */,
-				25A1AB011F4B485000FD77A1 /* Headers */,
-				25A1AB021F4B485000FD77A1 /* Resources */,
+				ED53272E1FA6FED700879616 /* Sources */,
+				ED53272F1FA6FED700879616 /* Frameworks */,
+				ED5327301FA6FED700879616 /* Headers */,
+				ED5327311FA6FED700879616 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NixonUtility;
-			productName = NixonUtility;
-			productReference = 25A1AB041F4B485000FD77A1 /* NixonUtility.framework */;
+			name = "NixonUtility-macOS";
+			productName = "NixonUtility-macOS";
+			productReference = ED5327331FA6FED700879616 /* NixonUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED5327431FA7066000879616 /* NixonUtility-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5327491FA7066000879616 /* Build configuration list for PBXNativeTarget "NixonUtility-iOS" */;
+			buildPhases = (
+				ED53273F1FA7066000879616 /* Sources */,
+				ED5327401FA7066000879616 /* Frameworks */,
+				ED5327411FA7066000879616 /* Headers */,
+				ED5327421FA7066000879616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NixonUtility-iOS";
+			productName = "NixonUtility-iOS";
+			productReference = ED5327441FA7066000879616 /* NixonUtility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -109,9 +180,12 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = NixonShih;
 				TargetAttributes = {
-					25A1AB031F4B485000FD77A1 = {
-						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0900;
+					ED5327321FA6FED700879616 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					ED5327431FA7066000879616 = {
+						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,13 +202,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25A1AB031F4B485000FD77A1 /* NixonUtility */,
+				ED5327431FA7066000879616 /* NixonUtility-iOS */,
+				ED5327321FA6FED700879616 /* NixonUtility-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25A1AB021F4B485000FD77A1 /* Resources */ = {
+		ED5327311FA6FED700879616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5327421FA7066000879616 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -144,15 +226,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25A1AAFF1F4B485000FD77A1 /* Sources */ = {
+		ED53272E1FA6FED700879616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE8EF361F540ECD002C761B /* AppNotifier.swift in Sources */,
-				EDE8EF381F540ECD002C761B /* NotificationUtility.swift in Sources */,
-				EDE8EF371F540ECD002C761B /* CommonPreference.swift in Sources */,
-				EDE8EF391F540ECD002C761B /* UserDefaultUtility.swift in Sources */,
-				ED32E8E91F67D7FA00994FE6 /* UIAlertController+Convenient.swift in Sources */,
+				ED53273C1FA7061900879616 /* CommonPreference.swift in Sources */,
+				ED53273D1FA7061900879616 /* NotificationUtility.swift in Sources */,
+				ED53273E1FA7061900879616 /* UserDefaultUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED53273F1FA7066000879616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED53274C1FA7066900879616 /* CommonPreference.swift in Sources */,
+				ED53274F1FA7066E00879616 /* AppNotifier.swift in Sources */,
+				ED53274D1FA7066900879616 /* NotificationUtility.swift in Sources */,
+				ED53274E1FA7066900879616 /* UserDefaultUtility.swift in Sources */,
+				ED5327501FA7067000879616 /* UIAlertControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,46 +364,105 @@
 			};
 			name = Release;
 		};
-		25A1AB191F4B485000FD77A1 /* Debug */ = {
+		ED5327381FA6FED700879616 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.NixonDesign.NixonUtility;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.nixondesign.NixonUtility-macOS";
+				PRODUCT_NAME = NixonUtility;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
-		25A1AB1A1F4B485000FD77A1 /* Release */ = {
+		ED5327391FA6FED700879616 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.nixondesign.NixonUtility-macOS";
+				PRODUCT_NAME = NixonUtility;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		ED53274A1FA7066000879616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.NixonDesign.NixonUtility;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.nixondesign.NixonUtility-iOS";
+				PRODUCT_NAME = NixonUtility;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED53274B1FA7066000879616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.nixondesign.NixonUtility-iOS";
+				PRODUCT_NAME = NixonUtility;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -327,11 +478,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25A1AB181F4B485000FD77A1 /* Build configuration list for PBXNativeTarget "NixonUtility" */ = {
+		ED53273A1FA6FED700879616 /* Build configuration list for PBXNativeTarget "NixonUtility-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25A1AB191F4B485000FD77A1 /* Debug */,
-				25A1AB1A1F4B485000FD77A1 /* Release */,
+				ED5327381FA6FED700879616 /* Debug */,
+				ED5327391FA6FED700879616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5327491FA7066000879616 /* Build configuration list for PBXNativeTarget "NixonUtility-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED53274A1FA7066000879616 /* Debug */,
+				ED53274B1FA7066000879616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

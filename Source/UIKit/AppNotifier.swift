@@ -3,7 +3,9 @@
 //  Copyright © 2017 NixonShih. All rights reserved.
 //
 
-import Foundation
+#if os(iOS)
+
+import UIKit
 
 /// Provide appDelegate lifecycle's notifications
 public enum AppNotifier: String, Notifiable {
@@ -53,3 +55,5 @@ public enum DeviceNotifier: String, Notifiable {
         }
     }
 }
+
+#endif

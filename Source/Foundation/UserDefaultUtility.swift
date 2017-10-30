@@ -47,4 +47,9 @@ public extension UserDefaults {
         set { set(newValue, forKey: key.rawValue) }
         get { return array(forKey: key.rawValue) as? [Int] }
     }
+    
+    subscript(key: UserDefaultDefine<[Any]>) -> [Any]? {
+        set { set(newValue, forKey: key.rawValue) }
+        get { return array(forKey: key.rawValue) }
+    }
 }
