@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  
   s.name = 'NixonUtility'
   s.version = '1.1.0'
   s.license = 'MIT'
@@ -12,7 +13,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.12'
   s.watchos.deployment_target = '4.0'
 
-  s.frameworks = 'Foundation', 'UIKit'
   s.pod_target_xcconfig = {
     'SWIFT_VERSION' => '4.0'
   }
