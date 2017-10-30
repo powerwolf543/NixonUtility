@@ -3,7 +3,16 @@
 //  Copyright © 2017 NixonShih. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import "TargetConditionals.h"
+
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#elif TARGET_OS_MAC
+#import <Cocoa/Cocoa.h>
+#elif TARGET_OS_WATCH
+#import <WatchKit/WatchKit.h>
+#endif
 
 //! Project version number for NixonUtility.
 FOUNDATION_EXPORT double NixonUtilityVersionNumber;
