@@ -19,6 +19,8 @@
 		ED5327511FA7068500879616 /* NixonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2543836C1F4B4BB400987989 /* NixonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED5327541FA709A600879616 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327531FA709A600879616 /* UICollectionViewExtensions.swift */; };
 		ED5327561FA70E7A00879616 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5327551FA70E7A00879616 /* UITableViewExtensions.swift */; };
+		ED705944202B16D30036D45C /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED705943202B16D30036D45C /* UserDefaultsExtensions.swift */; };
+		ED705945202B16E00036D45C /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED705943202B16D30036D45C /* UserDefaultsExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		ED5327441FA7066000879616 /* NixonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NixonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5327531FA709A600879616 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		ED5327551FA70E7A00879616 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		ED705943202B16D30036D45C /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		ED5327201FA6FA0500879616 /* FoundationExtension */ = {
 			isa = PBXGroup;
 			children = (
+				ED705943202B16D30036D45C /* UserDefaultsExtensions.swift */,
 			);
 			path = FoundationExtension;
 			sourceTree = "<group>";
@@ -238,6 +242,7 @@
 			files = (
 				ED53273C1FA7061900879616 /* CommonPreference.swift in Sources */,
 				ED53273D1FA7061900879616 /* NotificationUtility.swift in Sources */,
+				ED705945202B16E00036D45C /* UserDefaultsExtensions.swift in Sources */,
 				ED53273E1FA7061900879616 /* UserDefaultUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +253,7 @@
 			files = (
 				ED5327561FA70E7A00879616 /* UITableViewExtensions.swift in Sources */,
 				ED53274C1FA7066900879616 /* CommonPreference.swift in Sources */,
+				ED705944202B16D30036D45C /* UserDefaultsExtensions.swift in Sources */,
 				ED53274F1FA7066E00879616 /* AppNotifier.swift in Sources */,
 				ED53274D1FA7066900879616 /* NotificationUtility.swift in Sources */,
 				ED53274E1FA7066900879616 /* UserDefaultUtility.swift in Sources */,

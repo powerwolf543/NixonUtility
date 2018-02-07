@@ -38,9 +38,9 @@ public extension UserDefaults {
         get { return string(forKey: key.rawValue) }
     }
     
-    subscript(key: UserDefaultDefine<[String]>) -> [String]? {
+    subscript(key: UserDefaultDefine<Data>) -> Data? {
         set { set(newValue, forKey: key.rawValue) }
-        get { return array(forKey: key.rawValue) as? [String] }
+        get { return data(forKey: key.rawValue) }
     }
     
     subscript(key: UserDefaultDefine<[Int]>) -> [Int]? {
@@ -48,8 +48,23 @@ public extension UserDefaults {
         get { return array(forKey: key.rawValue) as? [Int] }
     }
     
+    subscript(key: UserDefaultDefine<[Bool]>) -> [Bool]? {
+        set { set(newValue, forKey: key.rawValue) }
+        get { return array(forKey: key.rawValue) as? [Bool] }
+    }
+    
+    subscript(key: UserDefaultDefine<[String]>) -> [String]? {
+        set { set(newValue, forKey: key.rawValue) }
+        get { return array(forKey: key.rawValue) as? [String] }
+    }
+    
     subscript(key: UserDefaultDefine<[Any]>) -> [Any]? {
         set { set(newValue, forKey: key.rawValue) }
         get { return array(forKey: key.rawValue) }
+    }
+    
+    subscript<T>(key: UserDefaultDefine<T>) -> T? where T: Codable {
+        set { setCodable(newValue, forKey: key.rawValue) }
+        get { return codable(forKey: key.rawValue, type: T.self) }
     }
 }
