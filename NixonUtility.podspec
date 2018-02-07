@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name = 'NixonUtility'
-  s.version = '1.1.2'
+  s.version = '1.2.1'
   s.license = 'MIT'
   s.summary = 'Nixon commonly used tools.'
   s.author = { 'NixonShih' => 'powerwolf543@gmail.com' }
