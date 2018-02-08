@@ -1,6 +1,6 @@
 # NixonUtility
 
-This project have contained utility functions that Nixon used commonly.
+This project contains utility functions that Nixon commonly uses.
 
 ## Installation
 
